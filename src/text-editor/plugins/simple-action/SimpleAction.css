@@ -1,0 +1,17 @@
+.action-button {
+    background-color: transparent;
+    border: none;
+    padding: 5px 5px;
+}
+
+.action-button:hover {
+    background-color: lightgrey;
+}
+
+.action-button__icon {
+    vertical-align: middle;
+}
+
+.action-button--active {
+    background-color: grey;
+}

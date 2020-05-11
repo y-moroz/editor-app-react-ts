@@ -1,0 +1,13 @@
+.control-panel {
+    background-color: #fff;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    width: var(--content-width);
+    margin: 0 auto;
+}
+
+.control-panel__group:not(:last-child) {
+    border-right: 1px solid gray;
+}

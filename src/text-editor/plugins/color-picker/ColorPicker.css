@@ -1,0 +1,22 @@
+.color-picker {
+  position: relative;
+  display: inline-block;
+}
+
+.color-picker__button {
+  background-color: transparent;
+  border: none;
+  padding: 5px 5px;
+}
+
+.color-picker__button:hover {
+  background-color: lightgrey;
+}
+
+.color-picker__content {
+  position: absolute;
+  top: 35px;
+  left: -8px;
+  z-index: 2;
+}
+
